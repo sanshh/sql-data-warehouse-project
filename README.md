@@ -5,6 +5,22 @@ Welcome to the **Data Warehouse and Analytics Project** repository! 🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
+## 🏗️ Data Architecture
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+
+
+
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+## 📖 Project Overview
+In this project, you:
+1. Design the architecture: A modern data warehouse with three layers: bronze, silver and gold.
+2. Build the ETL pipelines: Load the source files and move the data through the layers.
+3. Model the data: Facts and dimensions, ready for reports.
+4. Analyze it: Answer business questions with SQL.
 
 ## 🚀 Project Requirements
 
@@ -42,16 +58,10 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Hi there! I'm **Ansh**, a B.Tech student passionate about **Data Analytics, Data Engineering, and Technology**.
+Hi! I'm Ansh, a B.Tech student passionate about **Data Analytics and Data Engineering**.
 
-I'm currently building my skills in:
-- **SQL** – Data querying, database management, and data analysis.
-- **Excel** – Data cleaning, analysis, and reporting.
-- **Power BI** – Data visualization and interactive dashboards.
-- **Python** – Data manipulation and automation.
+- 💻 Currently learning SQL, Excel, Power BI, and Python.
+- 📊 Building hands-on projects and developing analytical skills.
+- 🚀 Aspiring Data Analyst, passionate about solving real-world problems with data.
 
-I enjoy working on practical projects, solving real-world problems with data, and continuously improving my technical skills.
-
-I'm currently exploring opportunities to grow as a **Data Analyst** and work towards building a career in the data industry.
-
-Thanks for visiting my repository! 🚀
+Thanks for visiting my repository! 
